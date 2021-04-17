@@ -1,0 +1,186 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+#title {
+  color: #fff;
+  background: url(../images/background.png);
+  height: 100%;
+  background-attachment: fixed;
+
+  /* Center and scale the image nicely */
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+a.navbar-brand {
+  position: absolute;
+  font-family: "Pacifico", cursive;
+  font-size: 3.5rem;
+  left: -10rem;
+}
+
+.navbar-nav {
+  position: relative;
+  right: -10rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.4rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.bd-example {
+  width: 100%;
+  margin: auto;
+  transform: rotate(0);
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.home {
+  padding: 3% 15% 6%;
+}
+
+/* buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* features section */
+h1.category.text-center {
+  font-weight: 700;
+  padding-bottom: 40px;
+}
+
+.carousel-inner {
+  border-radius: 50px;
+  opacity: 0.9;
+}
+
+.carousel-caption {
+  font-size: 20px;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+}
+
+.feature-box {
+  padding: 3% 2%;
+}
+
+/* testiomonials */
+#testimonials {
+  background: url(../images/background1.png);
+  height: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding: 6% 15%;
+  text-align: center;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item.testi {
+  padding: 0 15%;
+}
+
+#press {
+  background-color: #fff;
+  text-align: center;
+  padding-bottom: 1%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 5px 50px 50px;
+}
+
+.press-img-morning {
+  width: 14%;
+  margin: 5px 50px 50px;
+}
+/* cta section */
+#cta {
+  background: url(../images/background2.png);
+  height: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (min-width: 768px) {
+  #title {
+    text-align: center;
+  }
+
+  .bd-example {
+    position: static;
+    width: 100%;
+    transform: rotate(0);
+  }
+
+  .container-fluid.home {
+    padding: 3% 15% 6%;
+  }
+  a.navbar-brand {
+    position: relative;
+    right: 0;
+    margin-left: 4rem;
+  }
+}
